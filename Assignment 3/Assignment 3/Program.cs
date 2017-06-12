@@ -15,17 +15,12 @@ namespace Assignment_3
 {
     class Program
     {
-        static string sName;
+        static public int iMoney;
 
         static void Main(string[] args)
         {
-            WelcomePlayer();
-        }
-
-        static void WelcomePlayer()
-        {
-            Console.WriteLine("Welcome to NAMEISWIP, the decidedly average farming simulator.");
-            sName = Console.ReadLine();
+            iMoney = 100;
+            
         }
     }
 }
